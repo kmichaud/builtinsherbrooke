@@ -1,0 +1,27 @@
+- name: Agendrix
+  category: company
+  url: agendrix.com
+  description: Agendrix est un logiciel web et mobile de gestion d'horaire pour employés qui réinvente la planification et les communications d'horaires.
+  twitter: agendrix
+  facebook: agendrix
+
+- name: Lubie
+  category: agency
+  url: lubie.co
+  description: Lubie est une agence web créative qui crée des expériences distinctes à travers la marque de ses clients.
+  twitter: lubieco
+  facebook: lubie.co
+
+- name: BDC
+  category: resource
+  url: bdc.ca
+  description: BDC est une banque dédiée exclusivement aux entrepreneurs, offrant du financement, du capital de risque et des services de consultation.
+  twitter: bdc_news
+  facebook: bdc.ca
+
+- name: Startup Weekend
+  category: event
+  url: sherbrooke.startupweekend.org
+  description: Startup Weekend est l’occasion idéale de tester ou d’approfondir des idées de Start-Up en s’immergeant dans un groupe d’entrepreneurs dynamique.
+  twitter: startupweekend
+  facebook: startupweekend

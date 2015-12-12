@@ -1,0 +1,86 @@
+<header class="header">
+  <div class="banner banner-main">
+    <h1 class="banner-heading text-center">
+      Built in Sherbrooke
+      <p class="banner-heading-subtitle">Entreprises, startups, agences, ressources et événements technologiques</p>
+    </h1>
+  </div>
+</header>
+
+<section class="content">
+  <div class="container">
+  <div class="content-introduction">
+    <p>Des gens chaleureux, un écosystème entrepreneurial vibrant, la nature à quelques minutes et deux universités avec son lot de passionnées. Voilà ce qu'est Sherbrooke.</p>
+  </div>
+
+    <ul class="nav nav-tabs js-tabs">
+      <li class="active"><a href="#all" data-sort="all">Tous</a></li>
+      <li><a href="#companies" data-sort="companies">Entreprises & Startups</a></li>
+      <li><a href="#agencies" data-sort="agencies">Agences</a></li>
+      <li><a href="#resources" data-sort="resources">Ressources</a></li>
+      <li><a href="#event" data-sort="events">Événements</a></li>
+    </ul>
+
+    <select class="nav-mobile-tabs js-mobile-tabs">
+      <option data-sort="all">Tous</option>
+      <option data-sort="companies">Entreprises & Startups</option>
+      <option data-sort="agencies">Agences</option>
+      <option data-sort="resources">Ressources</option>
+      <option data-sort="events">Événements</option>
+    </select>
+
+    <ul class="entry-list js-entry-list">
+      <% data.entries.each do |entry| %>
+        <li class="entry js-entry" data-category="<%= entry.category %>">
+          <div class="row">
+            <div class="col-md-4">
+              <a href="http://<%= entry.url %>?utm_source=builtinsherbrooke&utm_medium=website&utm_campaign=builtinsherbrooke" title="<%= entry.name %> — <%= entry.description %>" target="_blank" data-name="<%= entry.name %>">
+                <%= image_tag "entries/#{entry.name.parameterize}-logo.jpg", alt: entry.name, class: "entry-image img-responsive hidden-xs hidden-sm" %>
+              </a>
+            </div>
+            <div class="col-md-8">
+              <a href="http://<%= entry.url %>?utm_source=builtinsherbrooke&utm_medium=website&utm_campaign=builtinsherbrooke" title="<%= entry.name %> — <%= entry.description %>" target="_blank" data-name="<%= entry.name %>">
+                <div class="row">
+                  <div class="col-sm-7">
+                    <h2 class="entry-heading"><%= entry.name %></h2>
+                  </div>
+                  <div class="col-sm-5">
+                    <h3 class="entry-link"><%= entry.url %></h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <p class="entry-description"><%= entry.description %></p>
+                  </div>
+                </div>
+              </a>
+              <div class="row">
+                <div class="col-xs-12">
+                  <ul class="entry-social-links">
+                    <% if entry.twitter %>
+                      <li><a href="https://twitter.com/<%= entry.twitter %>" target="_blank" class="js-social-link"><i class="fa fa-twitter"></i></a></li>
+                    <% end %>
+                    <% if entry.facebook %>
+                      <li><a href="https://facebook.com/<%= entry.facebook %>" target="_blank" class="js-social-link"><i class="fa fa-facebook"></i></a></li>
+                    <% end %>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      <% end %>
+    </ul>
+
+    <footer class="footer">
+      <div class="row">
+        <div class="col-sm-6">
+          <p><a href="https://github.com/allaire/builtinsherbrooke/" target="_blank">Ajouter votre entreprise</a></p>
+        </div>
+        <div class="col-sm-6">
+          <p class="text-sm-right">Fabriqué par <a href="https://twitter.com/allaire" target="_blank">@allaire</a></p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</section>
