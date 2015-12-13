@@ -8,7 +8,7 @@ Everything for the site is available to be modified here. To submit a company/ag
 
 ## How to add a company
 
-To add your entry, follow [the steps for forking the repo and creating a pull-request][fork repo] and update the `data/entries.yml` file with your entry's information. The mandatory information to include is:
+To add your entry, follow [the steps for forking the repo and creating a pull-request](https://help.github.com/articles/fork-a-repo) and update the `data/entries.yml` file with your entry's information. The mandatory information to include is:
 
 ```
 - name: Entry Name
@@ -42,7 +42,7 @@ As for the image/logo, fire up Photoshop and [download this template PSD](http:/
 
 **Commit and push. Then open up a pull-request.** If the pull-reqest is approved, it will be merged and automatically pushed to the site via a build process on CircleCI.
 
-**If this all sounds too technical**, feel free to [create an issue][create an issue] with the same information (logo, name, description, etc.) and one of the maintainers will add it in when they get time.
+**If this all sounds too technical**, feel free to [create an issue](https://github.com/allaire/builtinsherbrooke/issues) with the same information (logo, name, description, etc.) and one of the maintainers will add it in when they get time.
 
 ## Contributors
 
@@ -61,6 +61,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-[fork repo]: https://help.github.com/articles/fork-a-repo
-[create an issue]: https://github.com/allaire/builtinsherbrooke
