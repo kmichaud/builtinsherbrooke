@@ -31,6 +31,5 @@
 
   .content {
     @include animation(fadeIn 0.75s ease forwards);
-    @include animation-delay(0.20s);
   }
 }

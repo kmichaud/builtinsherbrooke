@@ -1,0 +1,23 @@
+## Customize the test machine
+machine:
+  timezone:
+    America/Toronto # Set the timezone
+
+  # Version of ruby to use
+  ruby:
+    version:
+      2.2.2
+
+## Customize test commands
+test:
+  override:
+    - bundle exec rake test
+
+## Customize deployment commands
+deployment:
+  production:
+    branch: master
+    commands:
+      - git config --global user.email deployer@circleci.com
+      - git config --global user.name "CircleCI"
+      - bundle exec middleman deploy
