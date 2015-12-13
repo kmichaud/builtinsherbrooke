@@ -5,6 +5,20 @@
   twitter: agendrix
   facebook: agendrix
 
+- name: Classcraft
+  category: company
+  url: classcraft.com
+  description: Classcraft transforme n'importe quelle classe en un jeu de rôle qui stimule la collaboration entre élèves et encourage de meilleurs comportements.
+  twitter: classcraftgame
+  facebook: classcraftgame
+
+- name: Axial
+  category: agency
+  url: axialdev.com
+  description: Axée sur les résultats, Axial s’assure que vos objectifs d’affaires soient réalisés et que le Web serve de moteur pour y arriver.
+  twitter: axialdev
+  facebook: axialdev
+
 - name: Lubie
   category: agency
   url: lubie.co
@@ -12,12 +26,15 @@
   twitter: lubieco
   facebook: lubie.co
 
-- name: BDC
+- name: ACET
   category: resource
-  url: bdc.ca
-  description: BDC est une banque dédiée exclusivement aux entrepreneurs, offrant du financement, du capital de risque et des services de consultation.
-  twitter: bdc_news
-  facebook: bdc.ca
+  url: www.accelerateur.ca
+  description: L'ACET a pour mission de susciter, faciliter et accélérer la création d’entreprises innovantes et créatrices d’emplois en transformant un projet en entreprise et en aidant le candidat ou la candidate à devenir un entrepreneur.
+
+- name: Espace-INC
+  category: resource
+  url: www.espace-inc.org
+  description: Espace-INC est un milieu de vie entrepreneurial inclusif dont la première phase de recrutement vise à accueillir et soutenir des startups de la région.
 
 - name: Startup Weekend
   category: event
@@ -25,3 +42,10 @@
   description: Startup Weekend est l’occasion idéale de tester ou d’approfondir des idées de Start-Up en s’immergeant dans un groupe d’entrepreneurs dynamique.
   twitter: startupweekend
   facebook: startupweekend
+
+- name: Startup Drinks
+  category: event
+  url: startupdrinkssherbrooke.com
+  description: Une soirée tranquille en compagnie d'entrepreneurs, normalement à chaque dernier mercredi du mois.
+
+
