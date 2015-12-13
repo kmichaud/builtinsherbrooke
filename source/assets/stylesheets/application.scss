@@ -1,9 +1,5 @@
 @charset "utf-8";
 
-// Bourbon
-// --------------------
-@import "bourbon";
-
 // Fonts
 // --------------------
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css";
@@ -32,6 +28,10 @@ $container-large-desktop:      740px;
 // Bootstrap
 // --------------------
 @import "bootstrap";
+
+// Bourbon
+// --------------------
+@import "bourbon";
 
 // Modules & Pages
 // --------------------

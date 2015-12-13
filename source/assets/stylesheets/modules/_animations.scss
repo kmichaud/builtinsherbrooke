@@ -1,0 +1,36 @@
+@include keyframes(fadeIn) {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@include keyframes(slideDownFadeIn) {
+  0% {
+    opacity: 0;
+    @include transform(translateY(-10px));
+  }
+  100% {
+    opacity: 1;
+    @include transform(translateY(0));
+  }
+}
+
+.cssanimations {
+  .content, .banner-heading {
+    opacity: 0;
+  }
+}
+
+.cssanimations.loaded {
+  .banner-heading {
+    @include animation(slideDownFadeIn 0.75s ease forwards);
+  }
+
+  .content {
+    @include animation(fadeIn 0.75s ease forwards);
+    @include animation-delay(0.20s);
+  }
+}
