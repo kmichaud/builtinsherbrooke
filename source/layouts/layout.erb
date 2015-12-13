@@ -1,5 +1,5 @@
-<% title = "Built in Sherbrooke — Entreprises, agences, startups, investisseurs, organismes et événements de Sherbrooke" %>
-<% description = "Une liste des meilleurs entreprises, agences, startups investisseurs, organismes et événements de Sherbrooke" %>
+<% title = "Built in Sherbrooke — Entreprises, startups, agences, ressources et événements technologiques de Sherbrooke" %>
+<% description = "Une liste des meilleures entreprises, startups, agences, ressources et événements technologiques de Sherbrooke" %>
 
 <!doctype html>
 <html>
@@ -23,7 +23,11 @@
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', '_CHANGE_ME_', 'auto');
+      var trackLink = function(url) {
+        ga('send', 'event', 'outbound', 'click', url);
+      }
+
+      ga('create', 'UA-71312587-1', 'auto');
       ga('send', 'pageview');
     </script>
   </head>

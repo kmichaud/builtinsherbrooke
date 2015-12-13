@@ -38,7 +38,7 @@ Save your entry at the bottom of the file (use spaces for the indentation, not t
 
 5. **facebook** (optional): preferrably all lowercase.
 
-As for the image/logo, fire up Photoshop and [download this template PSD](http://cl.ly/T8j5). If you turn on the guidelines, make sure your logo fits inside the inner guidelines and is roughly centered. Preferrably, use a background color other than white (it makes your company standout more and looks less boring). Save the image as a JPEG. **Put the logo in the `source/assets/images/entries/` directory**.
+As for the image/logo, fire up Photoshop and [download this template PSD](http://d.pr/f/17fZu). If you turn on the guidelines, make sure your logo fits inside the inner guidelines and is roughly centered. Preferrably, use a background color other than white (it makes your company standout more and looks less boring). Save the image as a JPEG. **Put the logo in the `source/assets/images/entries/` directory**.
 
 **Commit and push. Then open up a pull-request.** If the pull-reqest is approved, it will be merged and automatically pushed to the site via a build process on CircleCI.
 

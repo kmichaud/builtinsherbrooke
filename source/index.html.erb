@@ -32,12 +32,12 @@
         <li class="entry js-entry" data-category="<%= entry.category %>">
           <div class="row">
             <div class="col-md-4">
-              <a href="http://<%= entry.url %>?utm_source=builtinsherbrooke&utm_medium=website&utm_campaign=builtinsherbrooke" title="<%= entry.name %> — <%= entry.description %>" target="_blank" data-name="<%= entry.name %>">
+              <a href="http://<%= entry.url %>?utm_source=builtinsherbrooke&utm_medium=website&utm_campaign=builtinsherbrooke" onclick="trackLink('http://<%= entry.url %>')" title="<%= entry.name %> — <%= entry.description %>" target="_blank" data-name="<%= entry.name %>">
                 <%= image_tag "entries/#{entry.name.parameterize}-logo.jpg", alt: entry.name, class: "entry-image img-responsive hidden-xs hidden-sm" %>
               </a>
             </div>
             <div class="col-md-8">
-              <a href="http://<%= entry.url %>?utm_source=builtinsherbrooke&utm_medium=website&utm_campaign=builtinsherbrooke" title="<%= entry.name %> — <%= entry.description %>" target="_blank" data-name="<%= entry.name %>">
+              <a href="http://<%= entry.url %>?utm_source=builtinsherbrooke&utm_medium=website&utm_campaign=builtinsherbrooke" onclick="trackLink('http://<%= entry.url %>')" title="<%= entry.name %> — <%= entry.description %>" target="_blank" data-name="<%= entry.name %>">
                 <div class="row">
                   <div class="col-sm-7">
                     <h2 class="entry-heading"><%= entry.name %></h2>
@@ -56,10 +56,10 @@
                 <div class="col-xs-12">
                   <ul class="entry-social-links">
                     <% if entry.twitter %>
-                      <li><a href="https://twitter.com/<%= entry.twitter %>" target="_blank" class="js-social-link"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="https://twitter.com/<%= entry.twitter %>" onclick="trackLink('https://twitter.com/<%= entry.twitter %>')" target="_blank" class="js-social-link"><i class="fa fa-twitter"></i></a></li>
                     <% end %>
                     <% if entry.facebook %>
-                      <li><a href="https://facebook.com/<%= entry.facebook %>" target="_blank" class="js-social-link"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="https://facebook.com/<%= entry.facebook %>" onclick="trackLink('https://facebook.com/<%= entry.facebook %>')" target="_blank" class="js-social-link"><i class="fa fa-facebook"></i></a></li>
                     <% end %>
                   </ul>
                 </div>
@@ -73,10 +73,10 @@
     <footer class="footer">
       <div class="row">
         <div class="col-sm-6">
-          <p><a href="https://github.com/allaire/builtinsherbrooke/" target="_blank">Ajouter votre entreprise</a></p>
+          <p><a href="https://github.com/allaire/builtinsherbrooke/" onclick="trackLink('https://github.com/allaire/builtinsherbrooke/')" target="_blank">Ajouter votre entreprise</a></p>
         </div>
         <div class="col-sm-6">
-          <p class="text-sm-right">Fabriqué par <a href="https://twitter.com/allaire" target="_blank">@allaire</a></p>
+          <p class="text-sm-right">Fabriqué par <a href="https://twitter.com/allaire" onclick="trackLink('https://twitter.com/allaire/')" target="_blank">@allaire</a></p>
         </div>
       </div>
     </footer>
