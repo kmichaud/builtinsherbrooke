@@ -1,5 +1,7 @@
 # Built in Sherbrooke
 
+![](https://circleci.com/gh/allaire/builtinsherbrooke.svg?style=shield&circle-token=:circle-toke)
+
 **A collection of Sherbrooke's best tech companies, startups, agencies, resources, and events.**
 
 Everything for the site is available to be modified here. To submit a company/agency/startup/investor, [fork the repo and submit a pull-request](#how-to-add-a-company) with the changes. Same deal for making any changes to existing entries.
@@ -38,7 +40,7 @@ Save your entry at the bottom of the file (use spaces for the indentation, not t
 
 As for the image/logo, fire up Photoshop and [download this template PSD](http://cl.ly/T8j5). If you turn on the guidelines, make sure your logo fits inside the inner guidelines and is roughly centered. Preferrably, use a background color other than white (it makes your company standout more and looks less boring). Save the image as a JPEG. **Put the logo in the `source/assets/images/entries/` directory**.
 
-**Commit and push. Then open up a pull-request.** If the pull-reqest is approved, it will be merged and pushed live.
+**Commit and push. Then open up a pull-request.** If the pull-reqest is approved, it will be merged and automatically pushed to the site via a build process on CircleCI.
 
 **If this all sounds too technical**, feel free to [create an issue][create an issue] with the same information (logo, name, description, etc.) and one of the maintainers will add it in when they get time.
 
