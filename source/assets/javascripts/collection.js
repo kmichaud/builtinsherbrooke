@@ -59,9 +59,12 @@
         $oldTab; // currently active tab; remove .active
 
     $newTab = Collection.Utilities.findTabByFilter(newFilter);
-    $newTab.parent().addClass('active');
     $oldTab = Collection.Utilities.findTabByFilter(state.filter);
-    $oldTab.parent().removeClass('active');
+
+    if ($newTab.data('sort') != $oldTab.data('sort')) {
+      $newTab.parent().addClass('active');
+      $oldTab.parent().removeClass('active');
+    }
   };
 
   Collection.View._switchMobileTab = function(newFilter) {
