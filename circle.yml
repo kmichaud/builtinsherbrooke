@@ -1,0 +1,5 @@
+## Don't run test on these branches
+general:
+  branches:
+    ignore:
+      - gh-pages
