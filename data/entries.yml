@@ -19,6 +19,13 @@
   twitter: Produpneu
   facebook: PMCtire
 
+- name: Sherweb
+  category: company
+  url: www.sherweb.com
+  description: Le guichet unique pour une variété de solutions infonuagiques, telles que les serveurs et bases de données cloud, l’hébergement Exchange, les applications Office et les outils de collaboration.
+  twitter: sherweb
+  facebook: sherweb
+
 - name: Axial
   category: agency
   url: axialdev.com
