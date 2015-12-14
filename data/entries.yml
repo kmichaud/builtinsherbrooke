@@ -26,6 +26,11 @@
   twitter: sherweb
   facebook: sherweb
 
+- name: Shark Media & Sport
+  category: company
+  url: sharkmediasport.com
+  description: Shark Media & Sport propose un ensemble de solutions, de services et d’outils personnalisables pour la gestion complète de ligue ou d'événements sportifs.
+
 - name: Axial
   category: agency
   url: axialdev.com
